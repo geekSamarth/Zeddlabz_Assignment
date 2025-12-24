@@ -30,7 +30,7 @@ const foodItems = [
 
 export default function MostOrderedFood() {
   return (
-    <div className="w-full  mx-auto  mt-4 p-4 lg:border-l lg:border-gray-200 h-126">
+    <div className="w-full  mx-auto p-4 lg:border-l lg:border-gray-200 -mt-44">
       {/* Header */}
       <h2 className="text-lg font-semibold text-gray-900">Most Ordered Food</h2>
       <p className="text-sm text-gray-400 mt-1">

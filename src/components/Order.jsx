@@ -19,7 +19,7 @@ const data = [
 
 export default function Order() {
   return (
-    <div className="w-full  p-3 md:p-6 font-sans lg:border-l lg:border-gray-200">
+    <div className="w-full  p-3 md:p-6 font-sans lg:border-l lg:border-gray-200 -mt-72">
       {/* Header */}
 
       <div className="flex flex-row sm:items-center lg:justify-between gap-9 md:gap-4">

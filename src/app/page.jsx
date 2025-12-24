@@ -42,7 +42,7 @@ export default function DashboardLayout({ children }) {
               <OrderTime data={orderTimeData} />
             </div>
           </div>
-          <div className="w-full flex flex-col md:flex-row  items-center">
+          <div className="w-full flex flex-col md:flex-row  items-center mt-7">
             <Ratings />
             <MostOrdered />
             <Order />
