@@ -5,7 +5,7 @@ export default function Sidebar({ open, setOpen }) {
   return (
     <aside
       className={`
-        fixed lg:static inset-y-0 left-0 z-40 w-60 bg-[#F1F2F7] text-black shadow-md
+        fixed lg:static inset-y-0 left-0 z-40 w-64 bg-[#F1F2F7] text-black shadow-md
         transform transition-transform duration-300
         ${open ? "translate-x-0" : "-translate-x-full lg:translate-x-0"}
       `}
@@ -24,7 +24,7 @@ export default function Sidebar({ open, setOpen }) {
           ✕
         </button>
       </div>
-      <div className="border-t -mt-0.5 shadow border-[#C8CBD9] w-full height-[1px]"></div>
+      <div className="border-t -mt-1 shadow border-[#C8CBD9] w-full height-[1px]"></div>
 
       {/* Navigation */}
       <nav className="flex flex-col gap-1 px-5 py-10">
