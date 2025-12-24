@@ -31,7 +31,7 @@ export default function Header({ setSidebarOpen }) {
 
       <UserMenu />
       {/* Right */}
-      <div className="flex items-center gap-4 mr-4 ">
+      <div className="flex items-center gap-1 md:gap-4 mr-4 ">
         {/* Notifications */}
         <button className="relative">
           <Image
