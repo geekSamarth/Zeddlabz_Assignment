@@ -40,7 +40,7 @@ export default function Revenue() {
       </div>
 
       {/* Chart */}
-      <div className="mt-10 w-[75%] md:w-full" style={{ height: 200 }}>
+      <div className="mt-10 " style={{ height: 200 }}>
         <ResponsiveContainer height="100%" width="100%">
           <BarChart
             data={data}

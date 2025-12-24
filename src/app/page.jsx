@@ -8,7 +8,8 @@ import OrderTime from "@/components/OrderTime";
 import { orderTimeData } from "@/data/ordertime";
 import Revenue from "@/components/Revenue";
 import Order from "@/components/Order";
-import RatingCircles from "@/components/Rating";
+
+import Ratings from "@/components/Rating";
 
 export default function DashboardLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -29,7 +30,9 @@ export default function DashboardLayout({ children }) {
       {/* Main */}
       <div className="flex flex-col flex-1">
         <Header setSidebarOpen={setSidebarOpen} />
-        <h1 className="font-medium text-2xl text-[#1F384C] p-2 md:p-5">Dashboard</h1>
+        <h1 className="font-medium text-2xl text-[#1F384C] p-2 md:p-5">
+          Dashboard
+        </h1>
         <main className=" p-2 md:p-4 lg:p-6 overflow-y-auto">
           <div className="w-full flex flex-col lg:flex-row items-center">
             <div className="w-full lg:w-2/3">
@@ -39,8 +42,8 @@ export default function DashboardLayout({ children }) {
               <OrderTime data={orderTimeData} />
             </div>
           </div>
-          <div className="w-full flex items-center">
-            <RatingCircles />
+          <div className="w-full flex flex-col md:flex-row  items-center">
+            <Ratings />
             <MostOrdered />
             <Order />
           </div>
